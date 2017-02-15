@@ -1,0 +1,44 @@
+.myclass{
+    display:flex;
+    margin-left:350px;
+    padding:20px;
+}
+.linear{
+        width:150px;
+        height:150px;
+        background: -webkit-linear-gradient(to right,red,green);
+	    background: -o-linear-gradient(to right,red,green);
+	    background: -moz-linear-gradient(to right,red,green);
+        background:linear-gradient(to right,red,green);
+        border-radius:20px;
+        line-height:150px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 5px 5px 15px black;
+        }
+    .circle{
+        width:150px;
+        height:150px;
+        background: -webkit-linear-gradient( circle,red,yellow,green);
+	    background: -o-linear-gradient(circle,red,yellow,green);
+	    background: -moz-linear-gradient(circle,red,yellow,green);
+        background:radial-gradient(circle,red,yellow,green);
+        border-radius:20px;
+        line-height:150px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 5px 5px 15px black;
+        }
+    .elliptical{
+        width:150px;
+        height:150px;
+        background: -webkit-linear-gradient(red,yellow,green);
+	    background: -o-linear-gradient(red,yellow,green );
+	    background: -moz-linear-gradient(red ,yellow ,green) ;
+        background:radial-gradient(closest-corner at 50% 25%,red ,yellow ,green );
+        border-radius:20px;
+        line-height:150px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 5px 5px 15px black;
+        }
